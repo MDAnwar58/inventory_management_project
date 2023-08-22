@@ -1,0 +1,181 @@
+h4 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.form-group span {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+/* dashboard start */
+* {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+.is_acitve {
+	color: #af06b8;
+}
+
+.navbar {
+	box-shadow: -1px 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.row>* {
+	padding-right: 0;
+	padding-left: 0;
+}
+/* .content-row {
+	transition: all linear .5s;
+} */
+.sidebar {
+	min-height: 100vh;
+	/* transition: display 0.5s ease-in-out; */
+}
+
+.sidebar ul li a {
+	transition: all linear .2s;
+}
+
+.sidebar ul li a:hover {
+	background-color: rgba(246, 2, 137, .1);
+	border-left: 2px solid #f60289;
+}
+
+.navbar-nav .nav-item a.active {
+	background-color: rgba(246, 2, 137, .1);
+	border-left: 2px solid #f60289;
+}
+
+.content {
+	background-color: #fbf7f9;
+	box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.4);
+	max-height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.sidebar {
+		height: auto;
+	}
+
+	.content {
+		position: relative;
+	}
+}
+
+.store-icon-bg {
+	background-image: linear-gradient(to left top, #8822c5, #af06b8, #cd00a9, #e40099, #f60289);
+}
+
+.dropdown-menu li .dropdownManus {
+	transition: all linear .1s;
+}
+
+.dropdown-menu li .dropdownManus:hover {
+	background-color: rgba(246, 2, 137, .1);
+	border-left: 2px solid #f60289;
+}
+
+.store-icon-bg img {
+	width: 35px;
+	height: 35px;
+}
+
+.create_btn {
+	background-image: linear-gradient(to left top, #8822c5, #af06b8, #cd00a9, #e40099, #f60289);
+	font-size: 13px;
+	font-weight: 600;
+}
+
+div.h5 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/* dashboard end */
+/* profile start */
+.profile_row .button {
+	background-image: linear-gradient(to left top, #8822c5, #af06b8, #cd00a9, #e40099, #f60289);
+	font-size: 13px;
+	font-weight: 600;
+}
+/* profile end */
+/* sale page start */
+.sale_page .main_row {
+	z-index: -2;
+}
+
+.sale_page .main_row .billed_row {
+	z-index: 1;
+}
+.sale_page .main_row .billed_row table button {
+	font-size: 10px;
+	font-weight: 700;
+	box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.modal-content_add_product {
+	z-index: 2;
+}
+
+.sale_page .main_row .billed_row h5 {
+	font-size: 18px;
+}
+
+.sale_page .main_row .billed_row .text-info,
+.text-discount {
+	font-size: 14px;
+}
+
+.sale_page .main_row .billed_row .text-amount {
+	font-size: 15px;
+}
+.sale_page .main_row .billed_row .confirm_button {
+	background-image: linear-gradient(to left top, #8822c5, #af06b8, #cd00a9, #e40099, #f60289);
+	font-size: 13px;
+	font-weight: 600;
+}
+.sale_page .main_row .add_btn {
+	font-size: 11px;
+	font-weight: 600;
+}
+
+/* Style the number input */
+input[type="number"] {
+	width: 100px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+/* Keep the increase and decrease arrows always active */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+/* Optionally style the input when it's hovered or focused */
+input[type="number"]:hover,
+input[type="number"]:focus {
+	border-color: #555;
+}
+
+.increment_btn,
+.decrement_btn {
+	background-color: #eaeaea;
+	padding: 1px 3px;
+	cursor: pointer;
+}
+
+.invoice .viewBtn:hover,
+.invoice .deleteBtn:hover {
+	background-color: #100f0f;
+}
+/* sale page end */
+
+.report_download {
+	background-image: linear-gradient(to left top, #8822c5, #af06b8, #cd00a9, #e40099, #f60289);
+}
